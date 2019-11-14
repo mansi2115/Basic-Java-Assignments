@@ -30,15 +30,12 @@ public class SentenceFormat {
 						continue;
 					}	
 					
-					else if(index == wordsArray.length - 1) {
-						sentence = sentence+wordsArray[index];
-					}
 					
 					else {
 						sentence = sentence+wordsArray[index]+" ";
 					}
 				}
-				return sentence;
+				return sentence.trim();
 			
 		
 	}
